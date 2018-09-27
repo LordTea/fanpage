@@ -4,6 +4,7 @@ html {
 
 body {
     height: 100%;
+    background-color: #007BB8;
     
 }
 a {
@@ -12,8 +13,13 @@ a {
 
 .main {
     height: 100%;
+    background-image: url(https://static01.nyt.com/images/2018/05/24/us/24musk_xp/merlin_138515916_137f7b64-c55b-4f51-b788-72634d4700b6-articleLarge.jpg?quality=75&auto=webp&disable=upscale);
 }
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.rightPane {
+    background-image: url(https://www.tesla.com/sites/default/files/images/software_update.jpg);
 }
