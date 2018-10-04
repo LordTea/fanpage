@@ -13,13 +13,69 @@ a {
 
 .main {
     height: 100%;
-    background-image: url(https://static01.nyt.com/images/2018/05/24/us/24musk_xp/merlin_138515916_137f7b64-c55b-4f51-b788-72634d4700b6-articleLarge.jpg?quality=75&auto=webp&disable=upscale);
 }
+
 .social-image{
     width: 30px;
     margin: 15px;
 }
+/*Index*/
+#main-img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
 
-.rightPane {
-    background-image: url(https://www.tesla.com/sites/default/files/images/software_update.jpg);
+/*Gallery*/
+.thumbnail-image{
+    height: 500px;
+    width: 50%;
+    margin:auto;
+}
+
+#img1{
+    display:block;
+}
+
+#img2{
+    display:none;
+}
+
+#img3{
+    display:none;
+}
+
+#img4{
+    display:none;
+}
+
+/*about*/
+.aboutMain{
+    display:flex;
+}
+
+.leftPane{
+    text-align: center;
+    width: 50%;
+}
+
+.rightPane{
+    justify-content: center;
+    width: 50%;
+}
+
+/*Index*/
+.header {
+    display:flex;
+    justify-content:center;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-around;
+}
+
+.footer {
+    display:flex;
+    justify-content:space-around;
 }
