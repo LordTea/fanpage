@@ -73,9 +73,25 @@ a {
 .navbar {
     display:flex;
     justify-content: space-around;
+    border: 10px groove blue;
+    margin: 30px;
+    padding: 10px;
+    text-shadow: 3px 3px black;
 }
 
 .footer {
     display:flex;
     justify-content:space-around;
+}
+
+#main-img{
+    margin: auto;
+    padding: 30px;
+}
+
+.header{
+    font-size: 50px;
+    color: red;
+    font-family: fantasy;
+    text-shadow: 10px 10px black;
 }
